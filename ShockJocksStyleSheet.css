@@ -1,0 +1,113 @@
+head{
+	width: 100%;
+}
+
+body{
+	background-image: url("Images/ShockJocksBackground.png");
+	background-position: center;
+	background-repeat: repeat;
+}
+
+img.Centered{
+	margin: auto;
+	display: block;
+}
+
+p{
+	color: white;
+	font-family: "Changa One";
+	text-align: center;
+	font-size: 30px;
+}
+
+.support p{
+	color: white;
+	font-family: "Changa One";
+	text-align: center;
+	font-size: 18px;
+}
+
+.support a{
+	color: #00db0a;
+}
+
+.support a:hover{
+	color: #00FF00;
+}
+
+.support a:visited{
+	color: #00db0a;
+}
+
+iframe.CenteredVideo{
+	margin: auto;
+	display: block;
+	padding-bottom: 20px;
+}
+
+#imgList ul
+{
+	margin-top: 30px;
+	padding: 0;
+	list-style: none;
+	text-align: center;
+	width: 100%;
+	height: 120px;
+}
+
+#imgList ul li {
+	display: inline;
+	margin:2px;
+	/*padding-top: 15px;*/
+	width: 90px;
+	height: 120px;
+}
+
+#imgList ul li img{
+	/*margin: auto;*/
+	width: 90px;
+	height: auto;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #0e9814;
+	cursor: pointer;
+}
+
+#imgList ul li img.selected{
+	width: 90px;
+	height: auto;
+	border-style: solid;
+	border-width: 2px;
+	border-color: white;
+}
+
+#imgList ul li:hover{
+	padding: 0px;
+}
+
+#imgList ul li img:hover{
+	width: 90px;
+	height: auto;
+	border-color: #00db0a;
+}
+
+#MainDisplayImage{
+	margin: 57px 49px;
+}
+
+#MainDisplayImage img{
+	width: 450px;
+	height: 600px;
+	float: left;
+	display: block;
+	
+}
+
+#iPadFrame{
+	margin: auto;
+	display: block;
+	padding:1px;
+	width: 481px;
+	height: 626px;
+	background-image: url("Images/iPadFrame.png");
+}
